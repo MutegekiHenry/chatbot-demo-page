@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tailwind Starter Template - Landing Page Template: Tailwind Toolbox</title>
+  <title>Test Bot Site</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="">
@@ -80,7 +80,7 @@
 		<div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
 			<p class="uppercase tracking-loose w-full">This is a simple landing page </p>
 			<h1 class="my-4 text-5xl font-bold leading-tight">Demonstrates a chatbot</h1>
-			<p class="leading-normal text-2xl mb-8">This shows the WIDS Frequently Asked Questions Bot and how it would look like on a website. Go ahead and interact with it by clicking the chat icon.</p>
+			<p class="leading-normal text-2xl mb-8">This shows how the internet site status checker Bot and messenger would look like on a website. Go ahead and interact with it by clicking the chat icon.</p>
 			
 		</div>
 		<!--Right Col-->
@@ -109,12 +109,32 @@
 </div>
 
 
-<script SameSite="None; Secure" src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+<!-- <script SameSite="None; Secure" src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
 <script>
   var myLandbot = new LandbotLivechat({
     index: 'https://chats.landbot.io/v2/H-631922-0ZWJQJN1BLER0AA0/index.html',
   });
-</script>
+</script> -->
+
+<iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/b3d7010d-a4f5-4d74-b9aa-e8bb57e7450c">
+</iframe>
+
+<br>
+<br>
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https:&#x2F;&#x2F;www.unwantedwitness.org&#x2F;wp-content&#x2F;uploads&#x2F;2021&#x2F;06&#x2F;uw-favicon.png"
+  intent="WELCOME"
+  chat-title="InternetStatus"
+  agent-id="b3d7010d-a4f5-4d74-b9aa-e8bb57e7450c"
+  language-code="en"
+></df-messenger>
+
 
 <!--Footer-->
 <footer class="bg-white">
