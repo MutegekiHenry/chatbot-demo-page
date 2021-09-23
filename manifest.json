@@ -1,0 +1,17 @@
+{
+    "name": "Netdan Bot",
+    "short_name": "Netdan Bot",
+    "start_url": "/",
+    "background_color": "#FFDCB5",
+    "theme_color": "#1E003D",
+    "icons": [
+        {
+            "src": "images/NetDAN_logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ],
+    "display": "standalone",
+    "orientation":"portrait"
+}
